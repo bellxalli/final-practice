@@ -1,0 +1,21 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+h1
+{
+    font-family: sans-serif;
+    color: darkblue;
+}
+
+button
+{
+    background-color: green;
+    color: whitesmoke;
+}
+
+legend
+{
+    color: darkblue;
+}

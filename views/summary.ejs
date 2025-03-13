@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>summary</title>
+    <link rel="stylesheet" href="styles/home-styles.css">
+
+</head>
+<body>
+    <h1>Workout Summary</h1>
+
+
+    <h3>Logged Workout:</h3>
+    <% for (let i=0; i < workouts.length; i++) { %>
+        <p>Workout Type: <%= workouts[i].type %></p>
+        <p>Duration: <%= workouts[i].duration %></p>
+        <p>Intensity: <%= workouts[i].intensity%></p>
+        <p>Date: <%= workouts.[i].date%></p>
+        <p>Notes: <%= workouts[i].notes%></p>
+        <hr>
+    <% } %>
+
+    <button onclick="history.back()">Log Another Workout</button>
+
+</body>
+</html>

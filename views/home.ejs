@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>final practice</title>
+        <link rel="stylesheet" href="styles/home-styles.css">
+    </head>
+    <body>
+       <h1>Personal Fitness Tracker</h1>
+        <form action="/summary" method="post">
+            <fieldset>
+                <legend>Workout Type</legend>
+                <label>
+                    <select name="type">
+                        <option>running</option>
+                        <option>weightlifting</option>
+                        <option>yoga</option>
+                        <option>cycling</option>
+                        <option>other</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Duration</legend>
+                <label>
+                    <input type="text" name="duration">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Intensity Level</legend>
+                <label>
+                    <input type="radio" name="intensity">low
+                    <input type="radio" name="intensity">medium
+                    <input type="radio" name="intensity">high
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date</legend>
+                <label>
+                    <input type="date" name="date">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Notes</legend>
+                <textarea name="notes"></textarea>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+
+        </form>        
+    </body>
+</html>

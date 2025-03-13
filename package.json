@@ -1,0 +1,25 @@
+{
+  "name": "final-practice",
+  "version": "1.0.0",
+  "description": "final-practice",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellxalli/final-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bellxalli/final-practice/issues"
+  },
+  "homepage": "https://github.com/bellxalli/final-practice#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
