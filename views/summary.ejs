@@ -12,13 +12,13 @@
     <h1>Workout Summary</h1>
 
 
-    <h3>Logged Workout:</h3>
     <% for (let i=0; i < workouts.length; i++) { %>
-        <p>Workout Type: <%= workouts[i].type %></p>
-        <p>Duration: <%= workouts[i].duration %></p>
-        <p>Intensity: <%= workouts[i].intensity%></p>
-        <p>Date: <%= workouts.[i].date%></p>
-        <p>Notes: <%= workouts[i].notes%></p>
+        <h3>Logged Workout:</h3>
+        <p>Workout Type: <%=workouts[i].type%></p>
+        <p>Duration: <%=workouts[i].duration%></p>
+        <p>Intensity: <%=workouts[i].intensity%></p>
+        <p>Date: <%=workouts[i].date%></p>
+        <p>Notes: <%=workouts[i].notes%></p>
         <hr>
     <% } %>
 
@@ -26,3 +26,4 @@
 
 </body>
 </html>
+
